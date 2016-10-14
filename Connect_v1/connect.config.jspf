@@ -1,0 +1,16 @@
+<%-- any content can be specified here e.g.: --%>
+<%
+            String serverAddress         = "http://connect.csccloud.in/account/";
+            String authorizationAddress  = serverAddress + "authorize";
+            String tokenAddress          = serverAddress + "token";
+            String resourceAddress       = serverAddress + "resource";
+            String clientId              = "c2ff6084";
+            String clientSecret          = "";
+            //String redirectUri         = "";
+            String redirectUri           = "";
+            String accessToken           = "";
+
+            String bridgePayAddress      = "http://pay.csccloud.in/v1/payment/";
+            String bridgePrivateKey      = "MIICdwIBADANBgkqPzzu+ydZc0jtaMduP13ZP3PM3mjKk8UIKvil7LnZHpx6Fdfm8M6JDv2+Q4yfVlaBgIjeMMQ8OInb5A=";
+            String bridgePublicKey       = "MIGfM7WjHbkGaw2x3gVNtJfgGxgSnd6F2NMHzaFlJyhwpxETpp1lH8xbZnP5PtY5CwlrYpiLWkBmhdY9lVqqgOMq8rGpdmedRwIDAQAB";
+%>
